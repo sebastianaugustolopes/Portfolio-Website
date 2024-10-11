@@ -13,6 +13,11 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+.container-section{
+    margin: auto;
+    width: 90%;
+}
+
 .font-compacta{
     font-family: "Compacta", sans-serif;
     
@@ -139,4 +144,16 @@ body{
 
 .btn-dark i {
    font-size: 25px;
+}
+
+.about-me-card{
+    background-color: #F8F8F8;
+    border-radius: 10px;
+
+}
+
+.about-me-text{
+    text-align: justify;
+    word-spacing: 0.1em;
+   width: 90%;
 }
