@@ -18,6 +18,10 @@
         font-size: 12.3px;
      }
     
+    .card h5,
+    .card p{
+        font-size: 1vw;
+    }
 }
 
 @media screen and (max-width: 990px) {
