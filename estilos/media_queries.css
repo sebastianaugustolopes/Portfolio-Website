@@ -30,10 +30,6 @@
     .btn {
         margin-left: 10%;
     }
-
-    .navbar-collapse {
-        background-color: rgba(0, 0, 0, 0.562);
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -69,6 +65,9 @@
         display: none;
     }
 
+    #contato{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 530px) {

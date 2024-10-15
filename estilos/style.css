@@ -28,7 +28,7 @@ body{
 }
 
 #cabecalho {
-    position: absolute; 
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
@@ -54,9 +54,9 @@ body{
 .navbar-brand, 
 .navbar-brand:hover{
     color: rgb(255, 255, 255);
+    margin-left: 10px;
+    justify-content: space-between;
 }
-
-
 
 .navbar-brand h1{
     margin: 0;
@@ -79,7 +79,9 @@ body{
 
 .navbar-collapse{
     width: 100%;
-    max-width: 500px;
+    max-width: 475px;
+    
+    background-color: rgba(0, 0, 0, 0.918); 
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.986);
     border-radius: 30px;
     margin: 10px;
@@ -101,8 +103,8 @@ body{
     align-items: flex-start;
     justify-content: center;
     font-size: 2rem;
-
 }
+
 
 
 #home-page h1,p, .btn{
@@ -231,4 +233,34 @@ body{
 .card-icons img:hover {
     filter: drop-shadow(5px 5px 10px rgba(255, 255, 255, 0.7)); 
     transform: scale(1.1); 
+}
+
+#contato img{
+    margin: auto;
+    width: 100%;
+    max-width: 70%;
+    filter: drop-shadow(1px 1px 3px white);
+}
+
+label{
+    color: rgb(147, 147, 147);
+}
+
+form{
+    width: 100%;
+    max-width: 80%;
+}
+
+.social-icons > i, a{
+    padding: 4px;
+    color: white;
+    font-size: 25px;
+}
+
+#contato{
+    color: white;
+}
+
+#contato > div{
+    height: 800px;
 }
