@@ -236,10 +236,7 @@ body{
 }
 
 #contato img{
-    margin: auto;
-    width: 100%;
-    max-width: 70%;
-    filter: drop-shadow(1px 1px 3px white);
+    filter: drop-shadow(1px 1px 2px white);
 }
 
 label{
@@ -248,19 +245,13 @@ label{
 
 form{
     width: 100%;
-    max-width: 80%;
+    max-width: 90%;
 }
 
 .social-icons > i, a{
+    margin: auto;
     padding: 4px;
     color: white;
     font-size: 25px;
-}
-
-#contato{
-    color: white;
-}
-
-#contato > div{
-    height: 800px;
+    text-decoration: none;
 }

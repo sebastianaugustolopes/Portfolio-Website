@@ -68,7 +68,6 @@
     #contato{
         display: none;
     }
-}
 
 @media screen and (max-width: 530px) {
     #home-page h1 {
